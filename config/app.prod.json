@@ -5,7 +5,7 @@
             "Password": "",
             "Host": "127.0.0.1",
             "Port": 3306,
-            "DBname": "code-push"
+            "DBname": "codepush"
         },
         "MaxIdleConns": 10,
         "MaxOpenConns": 100,

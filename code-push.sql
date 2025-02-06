@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `code-push` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `code-push`;
+CREATE DATABASE  IF NOT EXISTS `codepush` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `codepush`;
 -- MySQL dump 10.13  Distrib 8.0.34, for macos13 (arm64)
 --
--- Host: localhost    Database: code-push
+-- Host: localhost    Database: codepush
 -- ------------------------------------------------------
 -- Server version	8.0.27
 

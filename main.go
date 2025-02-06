@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"com.lc.go.codepush/server/config"
+	"com.lc.go.codepush/server/mutator"
 	"com.lc.go.codepush/server/middleware"
 	"com.lc.go.codepush/server/request"
 
@@ -14,6 +15,9 @@ import (
 
 func main() {
 	fmt.Println("code-push-server-go V1.0.5")
+
+	mutator.MutateConfig()
+
 	// gin.SetMode(gin.ReleaseMode)
 	g := gin.Default()
 	g.Use(gzip.Gzip(gzip.DefaultCompression))
@@ -46,4 +50,5 @@ func main() {
 	}
 
 	g.Run(configs.Port)
+	// g.RunTLS(configs.Port, "ssl_servercert 1.pem", "ssl_private_key 1.pem")
 }
