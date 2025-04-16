@@ -152,6 +152,10 @@ chmod +x code-push-server-go
 <string moduleConfig="true" name="CodePushServerUrl">${CODE_PUSH_SERVER_URL}</string>
 ```
 
+```
+code
+```
+
 ## License
 
 MIT License [Read](https://github.com/htdcx/code-push-server-go/blob/main/LICENSE)
